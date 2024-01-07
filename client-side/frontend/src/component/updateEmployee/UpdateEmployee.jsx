@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, {useEffect, useState} from 'react'
 import './updateEmployee.css'
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
@@ -23,6 +23,25 @@ const UpdateEmployee = () => {
     const changeEmailIdHandler = (event) => {
         setEmailId(event.target.value);
     }
+    const getEmployeeById = async (employeeId) => {
+        try {
+            const response = await axios.get(`http://localhost:8080/api/v1/employees/${employeeId}`);
+            return response.data;
+        } catch (error) {
+            throw error;
+        }
+    }
+
+    useEffect(() => {
+        getEmployeeById(id)
+            .then((data) => {
+                setFirstName(data.firstName);
+                setLastName(data.lastName);
+                setEmailId(data.emailId);
+            })
+            .catch((error) => console.error("Error fetching tasks: " + error));
+    }, []);
+
     const updateEmployee = () => {
 
         const employeeData = { id, firstName, lastName, emailId };
