@@ -10,6 +10,26 @@
   <img src="https://img.shields.io/badge/docker-%231D63ED.svg?style=for-the-badge&logo=docker&logoColor=white" alt="logo" width="100" />
 </div>
 
+<div align="center"> 
+ <p>
+
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=bishakhne0gi%2FSpring-Crud%20&countColor=%23263759&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/bishakhne0gi/Spring-Crud)
+![GitHub Repo stars](https://img.shields.io/github/stars/bishakhne0gi/Spring-Crud)
+![GitHub contributors](https://img.shields.io/github/contributors/bishakhne0gi/Spring-Crud)
+![GitHub last commit](https://img.shields.io/github/last-commit/bishakhne0gi/Spring-Crud)
+![GitHub repo size](https://img.shields.io/github/repo-size/bishakhne0gi/Spring-Crud)
+![Github](https://img.shields.io/github/license/bishakhne0gi/Spring-Crud)
+![GitHub issues](https://img.shields.io/github/issues/bishakhne0gi/Spring-Crud)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/bishakhne0gi/Spring-Crud)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/bishakhne0gi/Spring-Crud)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/bishakhne0gi/Spring-Crud)
+
+ </p>
+ </div>
+
 ## What is CRUD?
 
 CRUD stands for Create, Read, Update, and Delete, which are the basic operations that can be performed on data in a database or data storage system. This concept is fundamental to database management and is often used in the context of web development, software engineering, and data management.
